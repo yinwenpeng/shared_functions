@@ -20,5 +20,3 @@ def adadelta(params, gparams, learning_rate = 1.0, rho = 0.95, epsilon = 1e-6):
     return updates
 
 
-def summ(a, b):
-    return a+b**2
